@@ -10,7 +10,10 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-@param {Array<Object>} images 
+
+/**
+ * @param {Array<Object>} images 
+ */
 export function createGallery(images) {
 
   const markup = images
